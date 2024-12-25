@@ -1,17 +1,17 @@
 import Navbar from '../components/Navbar/Navbar';
-import WorkComponent from '../components/WorkComponent/WorkComponent';
+import Work from '../components/Work/Work';
 import Footer from '../components/Footer/Footer';
 import TitleComponent from '../components/TitleComponent/TitleComponent';
 
 
-export default function Work() {
+export default function WorkPage() {
     return (
         <div id="Work">
             <Navbar />
             <TitleComponent>
                 <h1>Work</h1>
             </TitleComponent>
-            <WorkComponent />
+            <Work />
             <Footer />
         </div>
     );

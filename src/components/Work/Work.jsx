@@ -1,4 +1,4 @@
-import './WorkComponent.css';
+import './Work.css';
 import { WORK } from "../../const"
 import GithubCat from "../../images/IconGithub2.gif"
 import paper_card0 from "./paper_card0.png"
@@ -7,11 +7,11 @@ import paper_card2 from "./paper_card2.png"
 import paper_card3 from "./paper_card3.png"
 
 
-export default function WorkComponent() {
+export default function Work() {
     const paperCards = [paper_card0, paper_card1, paper_card2, paper_card3];
 
     return (
-        <section id="WorkComponent">
+        <section id="Work">
             <div className="work-container">
                 {WORK.map((work, index) => {
                     const background = paperCards[index % paperCards.length];
