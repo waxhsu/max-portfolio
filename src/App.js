@@ -2,10 +2,10 @@ import "./App.css";
 
 // Router and Pages
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Work from "./pages/Work";
-import About from "./pages/About";
-import Art from "./pages/Art";
+import Home from "./pages/HomePage";
+import Work from "./pages/WorkPage";
+import About from "./pages/AboutPage";
+import Art from "./pages/ArtPage";
 
 
 function App() {

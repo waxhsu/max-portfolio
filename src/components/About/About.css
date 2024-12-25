@@ -1,0 +1,14 @@
+.about-container {
+    border: blue solid 3px;
+}
+.about-content {
+    border: green solid 3px;
+}
+
+
+.me {
+    border: red solid 3px;
+    width: 3em;
+    height: 3em;
+}
+
