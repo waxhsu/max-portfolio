@@ -13,7 +13,6 @@ export default function AboutPage() {
                 <h1>About</h1>
             </TitleComponent>
             <About />
-            
             <Footer />
         </div>
     );

@@ -1,14 +1,44 @@
 .about-container {
-    border: blue solid 3px;
+    /* border: blue solid 3px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
 }
+
+.me img {
+    /* border: red solid 3px; */
+    width: 22em;
+    height: 22em;
+    border-radius: 5000px;
+    margin-bottom: 3em;
+}
+
 .about-content {
-    border: green solid 3px;
+    background-image: url("../Work/paper_card0.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
+    width: 37em;
+    padding: 3.75em 4em 4em 6.5em;
+}
+
+.about-content p {
+    font-size: 24px;
+    padding: 1em 2em 0;
+    margin: 0;
 }
 
 
-.me {
-    border: red solid 3px;
-    width: 3em;
-    height: 3em;
+@media only screen and (max-width: 768px) {
+    .about-content {
+        width: 22em;
+        padding: 2em 0em 4em 2em;
+        margin: 0 2em;
+    }
+    .about-content p {
+        font-size: 18px;
+        padding: 1em 1.5em 0;
+    }
 }
-
