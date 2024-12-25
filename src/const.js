@@ -1,67 +1,100 @@
-import uglyhandsclub from './images/uglyhandsclub.png';
-import avrg from './images/avrg.png';
-import projects_placeholder from './images/placeholder2.gif';
+import PLACEHOLDER from "./images/placeholder.png";
 
-export const TITLES = [
-  {
-      name: 'Web developer',
-  },
-  {
-      name: 'Graphic designer',
-  },
-  {
-      name: 'Retired dancer',
-  }
-];
+import IconEmail from "./images/IconEmail.gif";
+import IconGithub from "./images/IconGithub.gif";
+import IconInstagram from "./images/IconInstagram.gif";
+import IconLinkedin from "./images/IconLinkedin.gif";
 
 
-export const PROJECTS = [
-  {
-    name: `Game Project`,
-    src: projects_placeholder,
-    desc: `You are unemployed and sending job applications`,
-    class: `Web browser game`,
-    year: `2023`,
-  },
-  {
-    name: `Ugly Hands Club`,
-    src: uglyhandsclub,
-    desc: `Webstore specialized in climbing gear`,
-    class: `Webstore`,
-    year: `2023`,
-  },
-  {
-    name: `AVRG service`,
-    src: avrg,
-    desc: `A dry humor website because haha lol`,
-    class: `Dry humor`,
-    year: `2023`,
-  },
-  {
-    name: `Project 4`,
-    src: projects_placeholder,
-    desc: `Lorem ipsum something about pixel art that I drew because I want to`,
-    class: `Pixel art/Graphic design`,
-    year: `2022`,
-  },
-  
-  // {
-  //   name: `Three Man dice game`,
-  //   src: projects_placeholder,
-  //   desc: `A classic Taiwanese dice game where you try to not be the 3-man`,
-  // },
-  
+
+//////////////////////
+// PROJECTS SECTION //
+//////////////////////
+
+export const WORK = [
+    {
+        id: 0,
+        title: "You Got Laid Off",
+        src: PLACEHOLDER,
+        alt: "You Got Laid Off preview",
+        link1: "https://waxhsu.github.io/YGLO/",
+        link2: "https://github.com/waxhsu/YGLO",
+        desc: "I got laid off in 2022 so I made a game about getting laid off",
+    },
+    {
+        id: 1,
+        title: "CenterCentre UX Metrics",
+        src: PLACEHOLDER,
+        alt: "CenterCentre website preview",
+        link1: "https://ux-metrics.centercentre.com",
+        link2: "https://github.com/waxhsu/ux-metrics",
+        desc: "A dynamic website for CenterCentre complete with API something something CMS something something",
+    },
+    {
+        id: 2,
+        title: "Hustle Club",
+        src: PLACEHOLDER,
+        alt: "Hustle Club preview",
+        // link1: "https://www.hustleclub.org",
+        link1: "https://hustle-club-bk.vercel.app",
+        link2: "https://github.com/waxhsu/HustleClubBK",
+        desc: "Website for Hustle Club, a 3rd space that I often frequent and I'm building their NonProfit website",
+    },
+    {
+        id: 3,
+        title: "asdfasdf",
+        src: PLACEHOLDER,
+        alt: "Hustle Club preview",
+        link1: "https://www.hustleclub.org",
+        link2: "https://github.com/waxhsu/HustleClubBK",
+        desc: "Website for Hustle Club, a 3rd space that I often frequent and I'm building their NonProfit website",
+    },
+    {
+        id: 4,
+        title: "asdf",
+        src: PLACEHOLDER,
+        alt: "Hustle Club preview",
+        link1: "https://www.hustleclub.org",
+        link2: "https://github.com/waxhsu/HustleClubBK",
+        desc: "Website for Hustle Club, a 3rd space that I often frequent and I'm building their NonProfit website",
+    },
 ]
 
 
-// export const ABOUT = [
-//   {
-//     name: `paragraph1`,
-//     desc: `something about discipline and BEING FRICKING SELF-TAUGHT`,
-//   },
-//   {
-//     name: `paragraph2`,
-//     desc: `other interesting stuff like: DANCING // TERRARIUM // PIXEL ART // PRODUCTIVITY COACHING`,
-//   },
-  
-// ]
+
+////////////////////
+// FOOTER SECTION //
+////////////////////
+
+export const FOOTER = [
+    {
+        id: 0,
+        alt: "Email icon",
+        src: IconEmail,
+        link: "mailto:maxhsuwork@gmail.com",
+    },
+    {
+        id: 1,
+        alt: "GitHub icon",
+        src: IconGithub,
+        link: "https://github.com/waxhsu",
+    },
+    {
+        id: 2,
+        alt: "Instagram icon",
+        src: IconInstagram,
+        link: "https://www.instagram.com/waxhsu",
+    },
+    {
+        id: 3,
+        alt: "LinkedIn icon",
+        src: IconLinkedin,
+        link: "https://www.linkedin.com/in/max-hsu",
+    },
+];
+
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////
+///////////////////////////////////////

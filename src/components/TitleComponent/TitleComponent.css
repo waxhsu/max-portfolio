@@ -1,0 +1,21 @@
+.title-component {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.title-component h1 {
+    font-size: 7.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+/* !!!!! */
+@media only screen and (max-width: 768px) {
+    .title-component h1 {
+        font-size: 4.5em;
+        
+    }
+
+}
