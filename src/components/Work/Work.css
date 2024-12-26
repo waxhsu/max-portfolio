@@ -16,7 +16,7 @@
     text-align: center;
     width: 100%;
     background-size: cover;
-    background-position: top;
+    background-position: top left;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
 }
@@ -98,10 +98,6 @@
         align-items: center;
         text-align: center;
         width: 100%;
-        background-size: cover;
-        background-position: top;
-        background-repeat: no-repeat;
-        box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
     }
     .work-title > h2 {
         font-size: 1.1em;
@@ -116,7 +112,7 @@
 
 @media (max-width: 1040px) {
     .work-container {
-        border: blue solid 1px;
+        /* border: blue solid 1px; */
         margin: 0em 4em 4em;
         grid-template-columns: repeat(2, 1fr);
         padding: 0 1%;
