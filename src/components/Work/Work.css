@@ -1,14 +1,15 @@
 .work-container {
     /* border: red solid 1px; */
-    margin: 0em 2em 2em;
+    margin: 0em 10% 4em;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 0 5.5%;
-    column-gap: 2em;
-    row-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 1%;
+    column-gap: 1em;
+    /* row-gap: 2em; */
 }
 
 .work-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,13 +32,16 @@
 
 .work-title > h2 {
     margin: 1em 0 0.25em 0;
-    font-weight: 400;
-    font-size: 2em;
+    font-weight: 100;
+    font-size: 1.5em;
 }
 
 .work-github-link {
+    position: absolute;
+    bottom: .5em;
+    right: .5em;
     margin: 1em 0 0 0;
-    max-width: 3em;
+    max-width: 2em;
     transition: transform 0.2s ease; 
 }
 
@@ -58,14 +62,81 @@
 .work-title + a + p {
     margin: .75em 2.5em 1.75em;
     font-size: 1.5em;
-    /* background-color: white; */
-    /* filter: opacity(70%); */
 }
+
+
+
+
+
+@media (max-width: 1615px) {
+    .work-title > h2 {
+        font-size: 1.21em;
+    }
+
+    .work-title + a + p {
+        margin: .75em 2em 1.75em;
+        font-size: 1.15em;
+    }
+}
+
+
+@media (max-width: 1282px) {
+    .work-container {
+        /* border: red solid 1px; */
+        margin: 0em 2.5em 4em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 0 1em;
+        column-gap: 1.5em;
+        row-gap: 2em;
+    }
+    
+    .work-content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
+    }
+    .work-title > h2 {
+        font-size: 1.1em;
+    }
+    .work-title + a + p {
+        font-size: 1.07em;
+    }
+    
+}
+
+
+
+@media (max-width: 1040px) {
+    .work-container {
+        border: blue solid 1px;
+        margin: 0em 4em 4em;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 1%;
+        column-gap: 1em;
+        /* row-gap: 2em; */
+    }
+
+    .work-title > h2 {
+        font-size: 1.12em;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 768px) {
     .work-container {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        margin: 0 2em 3em;
         padding: 0 7.5%;
         row-gap: 2em;
     }
@@ -83,3 +154,6 @@
         font-size: 1.25em;
     }
 }
+
+
+/* Overall, I think I can make it so that work-content is a fixed width and have everything else adjust based on that. */

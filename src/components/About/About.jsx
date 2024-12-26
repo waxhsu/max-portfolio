@@ -11,9 +11,7 @@ export default function About() {
 
                 <div className="about-content">
                     <p>
-                        
-                            HI HELLO
-                        
+                        HI HELLO
                     </p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, accusantium doloribus accusamus deserunt tenetur explicabo placeat laudantium nesciunt rerum aliquid illum voluptatum molestiae aut. Velit asperiores quas corrupti voluptatum blanditiis.
                     </p>

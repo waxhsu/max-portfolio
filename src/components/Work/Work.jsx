@@ -23,14 +23,14 @@ export default function Work() {
                         >
                             <div className="work-title">
                                 <h2>{work.title}</h2>
-                                <a href={work.link2}>
-                                    <img className="work-github-link" src={GithubCat} alt="GitHub link" />
-                                </a>
                             </div>
                             <a href={work.link1}>
                                 <img className="work-preview" src={work.src} alt={work.alt} />
                             </a>
                             <p>{work.desc}</p>
+                            <a href={work.link2}>
+                                <img className="work-github-link" src={GithubCat} alt="GitHub link" />
+                            </a>
                         </div>
                     );
                 })}
