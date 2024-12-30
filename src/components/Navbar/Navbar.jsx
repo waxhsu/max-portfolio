@@ -1,5 +1,6 @@
 import './Navbar.css';
 import { Link, useLocation } from 'react-router-dom';
+import DarkModeToggle from '../DarkMode/DarkMode';
 
 export default function Navbar() {
     const location = useLocation();
@@ -19,7 +20,8 @@ export default function Navbar() {
                 <Link className={`nav-link ${location.pathname === '/art' ? 'active' : ''}`} to="/art">
                     Art
                 </Link>
-                <div className="nav-link goright">toggle</div>
+                <div className="nav-link goright"><DarkModeToggle /></div>
+                
             </div>
         </section>
     );

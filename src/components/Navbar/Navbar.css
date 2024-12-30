@@ -5,9 +5,14 @@
     align-items: center;
 }
 
+body.dark-mode .nav-bar {
+    filter: invert(1);
+}
+  
+
 .nav-link {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     padding: 0 2em 0 0;
     text-decoration: none;
     text-transform: uppercase;

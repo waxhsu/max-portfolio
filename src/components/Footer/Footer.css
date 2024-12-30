@@ -15,6 +15,15 @@
 }
 
 
+
+body.dark-mode .footer-bar {
+    filter: invert(1);
+}
+
+body.dark-mode .footer-content img {
+    filter: invert(1);
+}
+
 @media only screen and (max-width: 768px) {
     .footer-content img {
         max-width: 3em;
