@@ -1,20 +1,13 @@
 .dark-mode-toggle {
-    padding: 0.5em 1em;
-    font-size: 1rem;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dark-mode-toggle:hover {
-    background-color: #555;
+    opacity: 50%;
 }
 
-
-
-body.dark-mode .dark-mode-toggle {
-    filter: invert(1);
+.dark-mode-icon {
+    height: 40px;
 }

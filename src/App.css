@@ -15,8 +15,6 @@ body.dark-mode {
   background-image: url("./images/paper_bg_dark.png");
 }
 
-
-
 /* UNIVERSAL1.3em for p */
 * p {
   line-height: 1.5em;
@@ -30,18 +28,6 @@ body.dark-mode {
 * span {
   line-height: 1.5em;
 }
-
-h1 {
-  font-weight: 800;
-}
-
-body.dark-mode h1, body.dark-mode a {
-  filter: invert(1);
-}
-
-
-
-
 
 h3,
 h4 {

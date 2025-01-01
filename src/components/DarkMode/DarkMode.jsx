@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./DarkMode.css";
+import DarkIcon from "../../images/IconDark.gif"
+import LightIcon from "../../images/IconLight.gif"
 
 export default function DarkModeToggle() {
     const [isDarkMode, setIsDarkMode] = useState(() => {
@@ -21,8 +23,11 @@ export default function DarkModeToggle() {
     };
 
     return (
-        <button onClick={toggleDarkMode} className="dark-mode-toggle">
-            {isDarkMode ? "LIGHT ICON" : "DARK ICON"}
-        </button>
+        <div onClick={toggleDarkMode} className="dark-mode-toggle">
+            <img 
+                src={isDarkMode ? LightIcon : DarkIcon} 
+                className="dark-mode-icon"
+            />
+        </div>
     );
 }

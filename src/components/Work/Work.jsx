@@ -1,6 +1,7 @@
 import './Work.css';
 import { WORK } from "../../const"
 import GithubCat from "../../images/IconGithub2.gif"
+import ChainLink from "../../images/IconLink.gif"
 import paper_card0 from "./paper_card0.png"
 import paper_card1 from "./paper_card1.png"
 import paper_card2 from "./paper_card2.png"
@@ -28,9 +29,15 @@ export default function Work() {
                                 <img className="work-preview" src={work.src} alt={work.alt} />
                             </a>
                             <p>{work.desc}</p>
+
+                            <div className="work-link-container">
+                            <a href={work.link1}>
+                                <img className="work-chain-link" src={ChainLink} alt="GitHub link" />
+                            </a>
                             <a href={work.link2}>
                                 <img className="work-github-link" src={GithubCat} alt="GitHub link" />
                             </a>
+                            </div>
                         </div>
                     );
                 })}

@@ -11,16 +11,16 @@ export default function Navbar() {
                 <Link className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} to="/">
                     Max
                 </Link>
-                <Link className={`nav-link ${location.pathname === '/work' ? 'active' : ''}`} to="/work">
-                    Work
-                </Link>
                 <Link className={`nav-link ${location.pathname === '/about' ? 'active' : ''}`} to="/about">
                     About
                 </Link>
-                <Link className={`nav-link ${location.pathname === '/art' ? 'active' : ''}`} to="/art">
-                    Art
+                <Link className={`nav-link ${location.pathname === '/work' ? 'active' : ''}`} to="/work">
+                    Work
                 </Link>
-                <div className="nav-link goright"><DarkModeToggle /></div>
+                {/* <Link className={`nav-link ${location.pathname === '/art' ? 'active' : ''}`} to="/art">
+                    Art
+                </Link> */}
+                <div className="goright"><DarkModeToggle /></div>
                 
             </div>
         </section>

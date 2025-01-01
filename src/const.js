@@ -1,4 +1,7 @@
 import PLACEHOLDER from "./images/placeholder.png";
+import YGLO from "./images/preview-yglo.gif";
+import UXMetrics from "./images/preview-ux-metrics.png";
+import HustleClub from "./images/preview-hustleclub.png";
 
 import IconEmail from "./images/IconEmail.gif";
 import IconGithub from "./images/IconGithub.gif";
@@ -15,30 +18,31 @@ export const WORK = [
     {
         id: 0,
         title: "You Got Laid Off",
-        src: PLACEHOLDER,
+        src: YGLO,
+        // src: PLACEHOLDER,
         alt: "You Got Laid Off preview",
         link1: "https://waxhsu.github.io/YGLO/",
         link2: "https://github.com/waxhsu/YGLO",
-        desc: "I got laid off in 2022 so I made a game about getting laid off",
+        desc: "Got laid off in late-2022 so I made a game about getting laid off.",
     },
     {
         id: 1,
         title: "Outcome-Driven UX Metrics",
-        src: PLACEHOLDER,
+        src: UXMetrics,
         alt: "CenterCentre website preview",
         link1: "https://ux-metrics.centercentre.com",
         link2: "https://github.com/waxhsu/ux-metrics",
-        desc: "A dynamic website for CenterCentre complete with API something something CMS something something",
+        desc: "A web project for UI/UX students to purchase classes and check schedules.",
     },
     {
         id: 2,
         title: "Hustle Club",
-        src: PLACEHOLDER,
+        src: HustleClub,
         alt: "Hustle Club preview",
         // link1: "https://www.hustleclub.org",
         link1: "https://hustle-club-bk.vercel.app",
         link2: "https://github.com/waxhsu/HustleClubBK",
-        desc: "Website for Hustle Club, a 3rd space that I often frequent and I'm building their NonProfit website",
+        desc: "Ongoing project to expand the online presence of Latin Hustle for the NYC community.",
     },
 ]
 

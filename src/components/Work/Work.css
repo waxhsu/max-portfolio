@@ -1,3 +1,7 @@
+#Work {
+    height: 100%;
+}
+
 .work-container {
     /* border: red solid 1px; */
     margin: 0em 10% 4em;
@@ -13,55 +17,72 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     width: 100%;
+    height: auto;
     background-size: cover;
     background-position: top left;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
 }
 
+
+body.dark-mode .work-content {
+    filter: brightness(85%);
+}
+
+
 .work-title {
-    /* border: green solid 1px; */
     display: flex;
     align-items: end;
     text-align: left;
     justify-content: space-between;
-    width: 85%;
+    width: 90%;
 }
 
 .work-title > h2 {
-    margin: 1em 0 0.25em 0;
+    margin: 1em 0 0.75em 0;
     font-weight: 100;
     font-size: 1.5em;
 }
 
-.work-github-link {
+.work-link-container {
     position: absolute;
-    bottom: .5em;
-    right: .5em;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.work-github-link, .work-chain-link {
     margin: 1em 0 0 0;
     max-width: 2em;
     transition: transform 0.2s ease; 
+    padding: 0 5px 0 0;
 }
 
-.work-github-link:hover {
-    /* max-width: 2em; */
+.work-github-link:hover, .work-chain-link:hover {
     transform: scale(1.2) rotate(2.5deg); 
 }
 
 .work-preview {
-    width: 85%;
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
+    object-position: top; 
 }
 
+
 .work-preview:hover {
-    width: 85%;
     filter: brightness(90%);
 }
 
 .work-title + a + p {
-    margin: .75em 2.5em 1.75em;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin: .5em 1.5em 1.75em;
     font-size: 1.5em;
+    /* padding-bottom: 1em; */
 }
 
 
@@ -74,13 +95,13 @@
     }
 
     .work-title + a + p {
-        margin: .75em 2em 1.75em;
+        /* margin: .75em 2em 1.75em; */
         font-size: 1.15em;
     }
 }
 
 
-@media (max-width: 1290px) {
+@media (max-width: 1300px) {
     .work-container {
         /* border: red solid 1px; */
         margin: 0em 2.5em 4em;
@@ -96,7 +117,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        text-align: center;
+        /* text-align: center; */
         width: 100%;
     }
     .work-title > h2 {

@@ -11,6 +11,9 @@
     margin-bottom: 0.5em;
 }
 
+body.dark-mode h1 {
+    filter: invert(1);
+  }
 
 /* !!!!! */
 @media only screen and (max-width: 768px) {

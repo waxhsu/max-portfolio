@@ -8,8 +8,8 @@
 
 .me img {
     /* border: red solid 3px; */
-    width: 22em;
-    height: 22em;
+    width: 15em;
+    height: 15em;
     border-radius: 5000px;
     margin-bottom: 3em;
 }
@@ -20,14 +20,30 @@
     background-position: top;
     background-repeat: no-repeat;
     box-shadow: 10px 10px 4px rgba(56, 56, 56, 0.75);
-    width: 37em;
-    padding: 3.75em 4em 4em 6.5em;
+    width: 30em;
+    padding: 3.75em 4em 4em 4em;
+}
+
+body.dark-mode .about-content, body.dark-mode .me {
+    filter: brightness(85%);
 }
 
 .about-content p {
-    font-size: 24px;
-    padding: 1em 2em 0;
+    font-size: 20px;
+    padding: 1em .75em 0 2.5em;
     margin: 0;
+}
+
+
+.about-content a {
+    color: black;
+    text-decoration: underline;
+    
+}
+
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 

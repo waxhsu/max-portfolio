@@ -1,6 +1,6 @@
 .nav-bar {
     display: flex;
-    padding: 1em 0em 1em 2em;
+    padding: 0.7em 1em 0.5em 1.2em;
     background: rgba(0, 0, 0, 0.1);
     align-items: center;
 }
@@ -18,30 +18,24 @@ body.dark-mode .nav-bar {
     text-transform: uppercase;
 }
 
-.nav-link.active {
-    /* font-size: 36px; */
-    padding: 0 2em 0 0;
-    color: white;
-    text-decoration: underline;
-}
 
 .nav-link:hover {
     text-decoration: underline;
 }
 
 .goright {
-    margin-left: auto;
+    margin-left: auto
 }
 
 
 
 @media only screen and (max-width: 768px) {
     .nav-bar {
-        padding: 1em 0em 1em 1em;
+        /* padding: 1em 0em 1em 1em; */
     }
     
     .nav-link {
-        font-size: 16px;
+        /* font-size: 18px; */
         padding: 0 1em 0 0;
     }
 
